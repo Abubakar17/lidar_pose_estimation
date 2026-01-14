@@ -77,7 +77,7 @@ source install/setup.bash
 ros2 launch lidar_pose_estimation full_pipeline.launch.py
 ```
 
-See [SETUP.md](SETUP.md) for detailed installation and [USAGE.md](USAGE.md) for operation guide.
+See [SETUP.md](setup.md) for detailed installation.
 
 ---
 
