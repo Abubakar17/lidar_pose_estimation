@@ -1,0 +1,43 @@
+{
+  "input_dim": 150,
+  "output_dim": 6,
+  "n_slices": 15,
+  "features_per_slice": 10,
+  "feature_names": [
+    "z",
+    "n_points",
+    "x_min",
+    "x_max",
+    "x_mean",
+    "x_std",
+    "y_min",
+    "y_max",
+    "y_mean",
+    "y_std"
+  ],
+  "output_names": [
+    "x",
+    "y",
+    "z",
+    "roll",
+    "pitch",
+    "yaw"
+  ],
+  "output_units": {
+    "x": "meters",
+    "y": "meters",
+    "z": "meters",
+    "roll": "radians",
+    "pitch": "radians",
+    "yaw": "radians"
+  },
+  "model_config": {
+    "hidden_dims": [
+      256,
+      128,
+      64,
+      32
+    ],
+    "dropout_rate": 0.2
+  }
+}

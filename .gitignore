@@ -1,0 +1,38 @@
+# ROS2 build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.so
+.Python
+*.egg-info/
+venv/
+env/
+
+# Data files (too large for git)
+data/captures/*.csv
+!data/sample_data/
+
+# Large training data
+model/training_data/*.csv
+model/outputs/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
