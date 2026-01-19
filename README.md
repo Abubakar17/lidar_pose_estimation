@@ -17,6 +17,13 @@ This system figures out the exact position and rotation of a 15cm cube:
 
 ---
 
+## Video Demo
+
+
+
+https://github.com/user-attachments/assets/1441b410-252a-4e78-b65b-317587027f57
+
+
 ## Repository Structure
 ```
 ├── README.md
